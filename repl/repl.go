@@ -7,6 +7,7 @@ import (
 
 	"github.com/Brian-Kariu/writing-an-interpreter-in-go/evaluator"
 	"github.com/Brian-Kariu/writing-an-interpreter-in-go/lexer"
+	"github.com/Brian-Kariu/writing-an-interpreter-in-go/object"
 	"github.com/Brian-Kariu/writing-an-interpreter-in-go/parser"
 )
 

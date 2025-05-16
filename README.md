@@ -1,29 +1,30 @@
-# Writing An Interpreter In Go
+# go-interpreter
+This project an interpreter written in go following the learnings from the [book](https://interpreterbook.com) 
 
-Thank you for purchasing "Writing An Interpreter In Go"!
+## Running the REPL
 
-In the `code` folder you'll find the final result of each chapter. The code
-should be compilable and runnable if you set your $GOPATH to the top-level
-folder for each chapter. Every chapter folder also contains an `.envrc` file. If
-you have direnv (http://direnv.net/) installed then the $GOPATH should be
-automatically set for you as soon as you `cd` into the directories.
+The monkey programming language comes with a REPL. If you wish to run it yourself:
 
-If you have any question, send me an email: me@thorstenball.com
+### Prerequisites
 
-Enjoy the book!
+* [Go](https://go.dev/dl/) version `1.6` or above
 
-Thorsten
 
---
+### Installing
+1. Clone the repo
+2. `cd go-interpreter`
+3. Run `go build -o monkey` (yes, that's it)
+4. Now you can run the monkey repl in your terminal by running: `./monkey`
 
-Copyright © 2016-2020 Thorsten Ball
-All rights reserved.
-"Writing An Interpreter In Go" is copyright Thorsten Ball.
+If everything went well you should see this in your terminal:
 
-No part of this publication may be reproduced, stored in a retrieval system, or
-transmitted, in any form, or by any means, electronic, mechanical, photocopying,
-recording, or otherwise, without the prior consent of the publisher.
+```
+Welcome to monkey v0.0.0
+Press ctrl-d to exit.
+>> 5 + 5
+10
+>> 5 + true;
+type mismatch: INTEGER + BOOLEAN
+>> 
 
-EXCEPT: the contents `code` folder are licensed under the MIT license
-(https://opensource.org/licenses/MIT). See the `LICENSE` file in the `code`
-folder.
+```
