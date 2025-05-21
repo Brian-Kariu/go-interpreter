@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Brian-Kariu/writing-an-interpreter-in-go/evaluator"
-	"github.com/Brian-Kariu/writing-an-interpreter-in-go/lexer"
-	"github.com/Brian-Kariu/writing-an-interpreter-in-go/object"
-	"github.com/Brian-Kariu/writing-an-interpreter-in-go/parser"
+	"github.com/Brian-Kariu/go-interpreter/evaluator"
+	"github.com/Brian-Kariu/go-interpreter/lexer"
+	"github.com/Brian-Kariu/go-interpreter/object"
+	"github.com/Brian-Kariu/go-interpreter/parser"
 )
 
 const (

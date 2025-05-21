@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/Brian-Kariu/writing-an-interpreter-in-go/ast"
-	"github.com/Brian-Kariu/writing-an-interpreter-in-go/lexer"
-	"github.com/Brian-Kariu/writing-an-interpreter-in-go/token"
+	"github.com/Brian-Kariu/go-interpreter/ast"
+	"github.com/Brian-Kariu/go-interpreter/lexer"
+	"github.com/Brian-Kariu/go-interpreter/token"
 )
 
 // These values are assigned values from 0 - 7

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Brian-Kariu/writing-an-interpreter-in-go/ast"
+	"github.com/Brian-Kariu/go-interpreter/ast"
 )
 
 type ObjectType string

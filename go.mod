@@ -1,3 +1,3 @@
-module github.com/Brian-Kariu/writing-an-interpreter-in-go
+module github.com/Brian-Kariu/go-interpreter
 
 go 1.23.2
